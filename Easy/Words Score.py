@@ -17,5 +17,5 @@ def score_words(words):
 
 n = int(input())
 words = input().split()
-print("kelime:",words)
+
 print(score_words(words))
