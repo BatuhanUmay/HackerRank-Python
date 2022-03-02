@@ -6,13 +6,24 @@
 # DOSHI <DOSHI@hackerrank.com>
 
 ####################################################################################
-import re
 
-pattern = re.compile(r"^[a-zA-Z][\w\-.]*@[a-zA-Z]+\.[a-zA-Z]{1,3}$")
-for _ in range(int(input())):
-    name, emailParse = email.utils.parseaddr(input())
-    if pattern.match(emailParse):
-        print(email.utils.formataddr((name, emailParse)))
+import re
+n = int(input())
+for _ in range(n):
+    x, y = input().split(' ')
+    m = re.match(r'<[A-Za-z](\w|-|\.|_)+@[A-Za-z]+\.[A-Za-z]{1,3}>', y)
+    if m:
+        print(x,y)
+
+####################################################################################
+# import re
+# import email.utils
+#
+# pattern = re.compile(r"^[a-zA-Z][\w\-.]*@[a-zA-Z]+\.[a-zA-Z]{1,3}$")
+# for _ in range(int(input())):
+#     name, emailParse = email.utils.parseaddr(input())
+#     if pattern.match(emailParse):
+#         print(email.utils.formataddr((name, emailParse)))
 
 
 ####################################################################################
