@@ -79,6 +79,7 @@ def check_valid(email):
         return False
     return True
 
+
 n = int(input())
 emails = [input() for email in range(n)]
 
