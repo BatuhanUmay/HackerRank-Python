@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HackerRank-Python.iml" filepath="$PROJECT_DIR$/.idea/HackerRank-Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Project-Euler-Python/.idea/Project-Euler-Python.iml" filepath="$PROJECT_DIR$/../Project-Euler-Python/.idea/Project-Euler-Python.iml" />
     </modules>
   </component>
 </project>
